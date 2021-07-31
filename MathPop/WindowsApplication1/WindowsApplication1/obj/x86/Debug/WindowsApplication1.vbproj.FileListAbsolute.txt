@@ -1,0 +1,23 @@
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\Macbook Pro\AppData\Local\Temporary Projects\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Loading_screen.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Menu_Screen.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Select_Difficulty_Screen.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Pause_Menu.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Game_Screen.resources
+C:\Users\Macbook Pro\Desktop\MathPop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Select_Operation_Screen.resources

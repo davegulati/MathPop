@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{30BB914F-7164-4905-80F0-2D6E914F4CDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>WindowsApplication1.My.MyApplication</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>WindowsApplication1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>WindowsApplication1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game_Screen.Designer.vb">
+      <DependentUpon>Game_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GlobalVariables.vb" />
+    <Compile Include="Help_Screen.Designer.vb">
+      <DependentUpon>Help_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Help_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recent_games.Designer.vb">
+      <DependentUpon>Recent_games.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Recent_games.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Results.Designer.vb">
+      <DependentUpon>Results.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Results.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save.Designer.vb">
+      <DependentUpon>Save.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Save.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select_Operation_Screen.Designer.vb">
+      <DependentUpon>Select_Operation_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Select_Operation_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading_Screen.Designer.vb">
+      <DependentUpon>Loading_Screen.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu_Screen.Designer.vb">
+      <DependentUpon>Menu_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pause_Menu.Designer.vb">
+      <DependentUpon>Pause_Menu.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Pause_Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Select_Difficulty_Screen.Designer.vb">
+      <DependentUpon>Select_Difficulty_Screen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Select_Difficulty_Screen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game_Screen.resx">
+      <DependentUpon>Game_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help_Screen.resx">
+      <DependentUpon>Help_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recent_games.resx">
+      <DependentUpon>Recent_games.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Results.resx">
+      <DependentUpon>Results.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Save.resx">
+      <DependentUpon>Save.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select_Operation_Screen.resx">
+      <DependentUpon>Select_Operation_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading_Screen.resx">
+      <DependentUpon>Loading_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu_Screen.resx">
+      <DependentUpon>Menu_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pause_Menu.resx">
+      <DependentUpon>Pause_Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Select_Difficulty_Screen.resx">
+      <DependentUpon>Select_Difficulty_Screen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leaderboard_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Leaderboard_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quit_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quit_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\level_background_for_a_mobile_game__by_bvigec-d5vi8b0.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Loading.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_big.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_credits.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select difficulty-.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select_difficulty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medium.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medium_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medium_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Back_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Score.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Time.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pause_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game starting in-.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game_starting_in.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correct.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incorrect.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Game_paused.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restart_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Resume_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Restart_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Select_operation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtraction_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtraction_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Division_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Division_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multiplication_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Multiplication_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Addition_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Addition_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operation.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Difficulty.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_again_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Play_again_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel_blue.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name_purple.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operation2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Score2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correct2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Difficulty2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Incorrect2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Name2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recent_games_red.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recent_games_blue.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
